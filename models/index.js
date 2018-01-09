@@ -3,3 +3,5 @@ mongoose.set('debug', true);
 mongoose.connect('mongodb://localhost/to-do-api');
 
 mongoose.Promise = Promise;
+
+module.exports.Todo = require("./todo");
