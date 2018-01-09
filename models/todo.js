@@ -12,7 +12,7 @@ var todoSchema = new mongoose.Schema({
   created_date: {
     type: Date,
     default: Date.now
-  };
+  }
 });
 
 var Todo = mongoose.model('Todo', todoSchema);
